@@ -1,0 +1,143 @@
+@import "bourbon"
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media  (max-width : 1200px)
+	/**/
+	.container
+		max-width: 970px
+	.burger-menu
+		display: none
+
+/* Medium Devices, Desktops */
+@media (max-width : 992px)
+	/**/
+	.container
+		max-width: 750px
+	.wrapper__info
+		display: none
+
+	.logo
+		margin-top: 25px
+	.burger-menu
+		display: block
+	.title
+		flex-direction: column
+		justify-content: center
+		text-align: center
+	.title-info
+		padding-bottom: 40px
+	.title-image
+		width: 70%
+		padding: 120px 0px 0px 0px
+	.advantages
+		flex-direction: column
+		align-items: center
+	.advantages-img
+		width: 50%
+	.advantages-text
+		text-align: center
+	.advantages-table
+		grid-template-columns: 3% 37% 40% 20%
+	.container_about-us
+		text-align: center
+		h3,p
+			width: 100%
+	.map
+		height: 650px
+
+
+/* Small Devices, Tablets */
+@media (max-width : 768px)
+	.container
+		max-width: 482px
+	.sections
+		height: 100%
+	.header-wrapper
+		padding: 0px 0px 10px 0px
+	.title
+		justify-content: flex-end
+	.title-info
+		width: 100%
+		padding-bottom: 0px
+		padding-top: 70px
+		h3
+			font-size: 25px
+
+	.advantages-text
+		width: 100%
+	.advantages-table
+		grid-template-columns: 7% 38% 30% 28%
+		padding: 35px 0px 35px 0px
+	.menu-btn
+		top: 20px
+		right: 40px
+	.menubox
+		height: 18%
+		padding: 15px 0
+	.title-image
+		width: 70%
+		padding: 40px 0px 0px 0px
+
+	.map
+		height: 400px
+
+	/*Disable Animation on Mobile Devices*/
+	.animated
+		/*CSS transitions*/
+		-o-transition-property: none !important
+		-moz-transition-property: none !important
+		-ms-transition-property: none !important
+		-webkit-transition-property: none !important
+		transition-property: none !important
+		/*CSS transforms*/
+		-o-transform: none !important
+		-moz-transform: none !important
+		-ms-transform: none !important
+		-webkit-transform: none !important
+		transform: none !important
+		/*CSS animations*/
+		-webkit-animation: none !important
+		-moz-animation: none !important
+		-o-animation: none !important
+		-ms-animation: none !important
+		animation: none !important
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+

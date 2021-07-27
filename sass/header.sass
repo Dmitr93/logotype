@@ -1,0 +1,51 @@
+@import "bourbon"
+@import "vars.sass"
+@import "hamburger.sass"
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	font-family: "Jost"
+	overflow-x: hidden
+
+
+
+.sections
+	background: #03a9f4
+	height: 1080px
+	.container
+		height: 100%
+
+.header
+	background: #03a9f4
+	position: absolute
+	right: 0
+	left: 0
+.header-wrapper
+	display: flex
+	justify-content: space-between
+	align-items: center
+
+.wrapper__info
+	display: flex
+	justify-content: space-between
+	align-items: center
+	p
+		color: #95dbfa
+		font-size: 18px
+
+.info
+	margin-right: 60px
+	a
+		margin: 5px
+		padding: 3px
+		border-radius: 5px
+		font-size: 18px
+		color: #95dbfa
+		text-decoration: none
+		&:hover
+			background: #fff
+			color: #95dbfa
+			transition: 0.3s
